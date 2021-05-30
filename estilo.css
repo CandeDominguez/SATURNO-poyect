@@ -1,0 +1,293 @@
+*{
+	margin:0;
+}
+
+/* LOGO */
+
+.logo{
+	position: relative;
+	width: 260px;
+	height: 260px;
+	margin: 0px auto;
+}
+
+.logo:before{
+	content: '';
+	border-radius: 100% ;
+	border:1px solid black;
+	border-left: 8px solid black;
+	border-bottom: 8px solid black;
+	height:120px;
+	width:120px;
+	left:10.31%; 
+	right:12.03%;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	margin: auto;
+}
+
+.anillo{
+	position: absolute;
+    left: -0.01%;
+    right: 0.01%;
+    top: 1.69%;
+    bottom: 4.53%;
+    transform-origin: 50% 50%;
+    transform: rotateX(65deg) rotateY(35deg); 
+    border-radius: 50%;
+	border-bottom: 25px solid #FBCC52;
+	border-left: 4px solid #FBCC52;
+	border-right: 4px solid #FBCC52;
+	height:120px;
+	width:180px;
+	left:10.31%; 
+	right:12.03%;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	margin: auto;
+}
+.punto{
+	background: #1D1D1B;
+    border: 0.75px solid #1D1D1B;
+    border-radius:100%;
+    width: 10px;
+    height: 10px;
+}
+
+.punto1{
+	position: absolute;
+	left: 47.41%;
+    right: 47.08%;
+    top: 27.62%;
+    bottom: 87.31%;
+}
+
+.punto2{
+	position: absolute;
+    left: 66.61%;
+    right: 15.88%;
+    top: 45.7%;
+    bottom: 47.22%;
+}
+
+.punto3{
+	position: absolute;
+	left: 47.41%;
+	right: 47.08%;
+	top: 66.61%;
+	bottom: 7.13%;
+}
+
+.punto4{
+	position: absolute;
+	left: 28.2%;
+	right: 78.19%;
+	top: 45.7%;
+	bottom: 47.22%;
+}
+
+.punto5{
+	position: absolute;
+	left: 47.23%;
+	right: 46.9%;
+	top: 45.47%;
+	bottom: 46.99%;
+}
+
+#triangle1{
+	width: 0;
+	height: 0; 
+     border-left: 22px solid #1D1D1B;
+     border-top: 5px solid transparent;
+     border-bottom: 5px solid transparent; 
+	position: absolute;
+	left: 50.16%;
+	right: 35.97%;
+	top: 45.80%;
+	bottom: 46.99%;
+}
+
+#triangle2{
+	width: 0; 
+     height: 0; 
+     border-right: 5px solid transparent;
+     border-left: 5px solid transparent;
+     border-bottom: 30px solid #1D1D1B; 
+	position: absolute;
+	left: 47.25%;
+	right: 46.9%;
+	top: 36.60%;
+	bottom: 50.76%;
+}
+
+.div .center .h1{
+	
+}
+
+/*FIN LOGO*/
+
+/* Inputs in general */
+input {
+			width: 60%;
+			height: 35px;
+			border-radius: 10px;
+			border: 2px solid #DADADA;
+			max-height: 35px;
+			padding: 10px 10px;
+			box-sizing: border-box;
+			text-align: left;
+			color: #918E8E;
+			font-size: 12px;
+			margin: 4px 2px;
+		}
+
+/* Buttons in general */
+		.button { 
+    border-radius:8px;
+    background-color: #F9C83C;
+    border-color: #F9C83C;
+    color: black;
+    width: 30%;
+    height: 40%;
+    max-height: 45px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+/* Menu */
+
+.dropbtn {
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #F9C83C;
+    width: 30%px;
+    height: 40px;
+    color: black;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 160px;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #E8E7E6}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #F9C83C;
+}
+
+        /*REGISTER*/
+		#name{
+			width: 30%;
+			height: 35px;
+			border-radius: 10px;
+			border: 2px solid #DADADA;
+			max-height: 35px;
+			padding: 10px 10px;
+			box-sizing: border-box;
+			text-align: left;
+			color: #918E8E;
+			font-size: 12px;
+			margin: 4px 2px;
+		}
+
+		#surname{
+			width: 30%;
+			height: 35px;
+			border-radius: 10px;
+			border: 2px solid #DADADA;
+			max-height: 35px;
+			padding: 10px 10px;
+			box-sizing: border-box;
+			text-align: left;
+			color: #918E8E;
+			font-size: 12px;
+			margin: 4px 2px;
+		}	
+
+		/*LOGIN*/
+		#user{
+			width: 60%;
+			height: 35px;
+			border-radius: 10px;
+			border: 2px solid #DADADA;
+			max-height: 35px;
+			padding: 10px 10px;
+			box-sizing: border-box;
+			text-align: left;
+			color: #918E8E;
+			font-size: 12px;
+			margin: 4px 2px;
+		}
+
+		#password{
+			width: 60%;
+			height: 35px;
+			border-radius: 10px;
+			border: 2px solid #DADADA;
+			max-height: 35px;
+			padding: 10px 10px;
+			box-sizing: border-box;
+			text-align: left;
+			color: #918E8E;
+			font-size: 12px;
+			margin: 4px 2px;
+		}	
+
+/* Button "Continuar" */
+.button1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+	#user{
+		width: 80%; 
+	}
+	#password{
+		width: 80%; 
+	}
+
+	.button1{
+		width: 50%;
+	}
+
+	.button{
+		width: 50%;
+	}
+}
