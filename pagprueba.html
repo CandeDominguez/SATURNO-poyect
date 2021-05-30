@@ -7,10 +7,7 @@
 	<LINK REL=StyleSheet HREF="estilo.css" TYPE="text/css" MEDIA=screen>
     <meta name="viewport" content="witdth=device-width, user-sacalable=no, initial-scale=1.0, maxium-scale=1.0, minium-scale=1.0"	>	
 	<style>
-		body {
-			border: 0px;
-			background:#FFFFFF;
-		}
+		
 
 .button2 {
 	background-color: #E5E5E5;
@@ -60,17 +57,20 @@
 
 
 <center><h3><b> Iniciar Sesión</b></h3></center>
-<form>
+<form action="" method="POST">
   <center><input type="text" id="user" name="fname" placeholder="Correo electrónico, DNI o teléfono"><br>
   	<center><input type="password" id="password" name="fname" placeholder="Contraseña"><br>
   		<div id="align"><a href="restorepassword.html"><font color="F9C83C" size="3px">Olvidé mi contraseña</font></a><br>
   		</div>
   		<p>
+  		<center><br>
+
+  		<input type="submit" name="button1" class="button button1" value="Continuar">	<br>
+  		<input type="submit" name="button2" class="button button2" value="Continuar con google">	
   		
 </form>	
-<center><br>	
-<button class="button button1">Continuar</button><br>
-<button class="button button2">Continuar con Google</button><p>
+
+<p>
 
 <font size="3px">¿No tienes cuenta?</font>
 <a href="registro.html"><font color="F9C83C" size="3px">Regístrate</font></a>
